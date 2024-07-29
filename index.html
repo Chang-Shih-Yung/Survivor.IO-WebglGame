@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>BUI Fighter Escape</title>
+    <title>Unity WebGL Player | Survivor.IO</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -18,9 +18,9 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <!-- <div id="unity-webgl-logo"></div> -->
+        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">BUI Fighter Escape</div>
+        <div id="unity-build-title">Survivor.IO</div>
       </div>
     </div>
     <script>
@@ -63,7 +63,7 @@
         codeUrl: buildUrl + "/TEST.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Fighter Escape",
+        productName: "Survivor.IO",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -97,7 +97,6 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/TEST.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
